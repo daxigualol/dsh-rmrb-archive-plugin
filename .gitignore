@@ -1,0 +1,14 @@
+# 依赖与构建产物
+node_modules/
+*.tgz
+
+# 运行产物
+人民日报存档/
+*.tmp
+
+# 编辑器与系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

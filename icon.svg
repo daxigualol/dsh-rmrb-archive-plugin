@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="人民日报 PDF 存档">
+  <rect x="6" y="11" width="52" height="42" rx="9" fill="#C22B23"/>
+  <rect x="13" y="17" width="38" height="30" rx="4" fill="#FFF7EE"/>
+  <rect x="17" y="21" width="30" height="6" rx="3" fill="#C22B23"/>
+  <g fill="#C9917F">
+    <rect x="17" y="31" width="13" height="3" rx="1.5"/>
+    <rect x="17" y="37" width="13" height="3" rx="1.5"/>
+    <rect x="34" y="31" width="13" height="3" rx="1.5"/>
+    <rect x="34" y="37" width="13" height="3" rx="1.5"/>
+  </g>
+</svg>

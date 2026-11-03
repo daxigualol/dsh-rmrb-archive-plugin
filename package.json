@@ -1,0 +1,49 @@
+{
+  "name": "@daxigualol/rmrb-archive",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "人民日报 PDF 存档：按日期下载、合并并归档《人民日报》各版 PDF。",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "dsh-bundle",
+    "people-daily",
+    "rmrb",
+    "pdf",
+    "archive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daxigualol/dsh-rmrb-archive-plugin.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "vendor/pdf-lib.min.cjs",
+    "vendor/pdf-lib.LICENSE.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.5"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

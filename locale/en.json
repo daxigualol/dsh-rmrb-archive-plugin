@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "People's Daily PDF archive",
+    "description": "Adds a People's Daily entry to the sidebar: download each edition's PDF for a date range, merge them into one PDF per day, group them by month, and report missing editions."
+  }
+}
